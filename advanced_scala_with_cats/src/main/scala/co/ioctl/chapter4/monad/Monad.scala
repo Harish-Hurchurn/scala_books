@@ -1,4 +1,4 @@
-package co.ioctl.chapter4.Monad
+package co.ioctl.chapter4.monad
 
 import scala.language.higherKinds
 

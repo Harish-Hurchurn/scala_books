@@ -3,7 +3,7 @@ package co.ioctl.chapter4.monads.IdMonad
 import org.scalatest.{FreeSpec, Matchers}
 
 class IdMonadSpec extends FreeSpec with Matchers {
-  import co.ioctl.chapter4.Monad.IdMonad.IdMonad
+  import co.ioctl.chapter4.monad.id_monad.IdMonad
 
   "IdMonad" - {
     "should provide a pure method which should lift a plain value into the context of the monad" in {
