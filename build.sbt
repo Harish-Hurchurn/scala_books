@@ -10,3 +10,6 @@ lazy val advancedScalaWithCats = (project in file("advanced_scala_with_cats"))
 
 lazy val functionalProgrammingWithScala = (project in file("functional_programming_with_scala"))
   .settings(libraryDependencies ++= Common.dependencies)
+
+lazy val functionalProgrammingSimplified = (project in file("functional_programming_simplified"))
+  .settings(libraryDependencies ++= Common.dependencies)
